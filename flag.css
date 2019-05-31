@@ -1,0 +1,94 @@
+*
+{
+    font-family: Nosifer;
+}
+.upper
+{
+    margin-left:500px;
+    margin-right:500px;
+    margin-top:50px;
+    background-color:#FF9933;
+    border: 1px solid black;
+    height: 100px;
+}
+
+.middle
+{
+    margin-left:500px;
+    margin-right:500px;
+    background-color:#FFFFFF;
+    border: 1px solid black;
+    height: 100px;
+}
+
+.lowwer
+{
+    margin-left:500px;
+    margin-right:500px;
+    background-color:#138808;
+    border: 1px solid black;
+    height: 100px;
+}
+
+.chakra
+{
+    width:100px;
+    height: 100px;
+    margin:0 0 0 200px;
+    animation:ch 10s infinite;
+}
+
+@keyframes ch{
+    100%
+    {
+        transform: rotate(360deg);
+    }
+  /*  100%
+    {
+        transform: rotate(360deg)
+    }*/
+}
+
+.name
+{
+    margin-top:50px;
+    margin-left: 900px;
+}
+
+span
+{
+    font-size: 30px;
+    font-family: 'Nosifer', cursive;
+    font-style: italic;
+    font-feature-settings: "abvm";
+}
+
+.full
+{
+    background: url(https://hdqwalls.com/wallpapers/sky-clouds.jpg);
+    background-size: 100%;
+}
+
+.h-n-y
+{
+    margin-left:400px;
+    margin-top:150px;
+    font-size: 40px;
+    animation: change 10s infinite;
+}
+
+@keyframes change
+{
+    33%
+    {
+        color: #FF9933;
+    }
+    66%
+    {
+        color:#ffffff;
+    }
+    100%
+    {
+        color:#138808;
+    }
+}
